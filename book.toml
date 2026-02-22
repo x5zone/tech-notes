@@ -1,0 +1,17 @@
+[book]
+title = "Tech Notes"
+authors = ["x5zone"]
+language = "zh"
+src = "."
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+additional-css = ["mdbook/custom.css"]
+additional-js = ["mdbook/comments.js"]
+git-repository-url = "https://github.com/x5zone/tech-notes"
+edit-url-template = "https://github.com/x5zone/tech-notes/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 0
